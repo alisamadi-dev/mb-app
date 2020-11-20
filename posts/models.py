@@ -6,5 +6,5 @@ from django.db import models
 class Post (models.Model):
     text = models.TextField()
 
-    def __string__(self):
+    def __str__(self):
         return self.text[:50]
